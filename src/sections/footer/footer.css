@@ -1,0 +1,36 @@
+footer {
+    background: var(--color-primary);
+    padding-top: 8rem;
+    box-shadow: 0 -1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
+    transition: var(--transition);
+}
+
+footer .nav__menu {
+    justify-content: center;
+}
+
+.footer__socials {
+    width: fit-content;
+    display: flex;
+    gap: 1.5rem;
+    margin: 3rem auto 4rem;
+}
+
+.footer__socials a {
+    background: var(--color-black);
+    color: var(--color-white);
+    padding: 0.6rem;
+    border-radius: var(--border-radius-3);
+}
+
+.footer__socials a:hover {
+    opacity: 0.7;
+    transform: translateY(-0.5rem);
+}
+
+.footer__copyright {
+    color: white;
+    text-align: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 1.5rem 0;
+}
