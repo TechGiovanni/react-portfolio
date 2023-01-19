@@ -26,17 +26,18 @@ const About = () => {
 						))}
 					</div>
 					<p>
-						Building projects my clients love have always been my passion. Being
-						in the web development industry for over 3 years and serving more
-						than 70 happy clients worldwide, I'm always motivated to do more!
+						Highly motivated and passionate junior developer with experience in
+						full-stack web development. Building and learning the inner workings
+						of things that peeks my interest have always been my passion. Being
+						in the web development industry for up to 1 year now and I'm always
+						motivated to do more!
 					</p>
 					<p>
-						Hi, my name is Hajia Bintu from Accra, Ghana. I'm a full-stack web
-						developer with a Bachelors degree in Computer Science. My top
-						priority is to get your business online the right way, giving you
-						industry-standard design and all the functionality you need to
-						operate smoothly online. Get in touch today with the details of your
-						project let's get started! Check out my resume below!
+						My top priority is to give as much and more to your business in any
+						way that I can too contribute and help the team. Implementing
+						industry-standard design and develop the functionalities you need to
+						improve the website/app. Get in touch with me today with my links
+						below. let's get started! Check out my resume below!
 					</p>
 					<a href={CV} download className='btn primary'>
 						Download CV <HiDownload />

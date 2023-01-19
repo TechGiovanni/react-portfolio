@@ -31,9 +31,13 @@ const Portfolio = () => {
 		<section id='portfolio'>
 			<h2>Recent Projects</h2>
 			<p>
-				Check out some of the projects I recently worked. Heroku apps may render
-				slower as the dyno's will be sleeping zzz.
+				Check out some of the projects I recently worked.
+				<span className='recent__projects_p'>
+					<strong>** Heroku Apps</strong> may render slower than usual as the
+					dyno's will be sleeping <strong>zzz **</strong>.
+				</span>
 			</p>
+
 			<div className='container portfolio__container'>
 				<ProjectsCategories
 					categories={uniqueCategories}

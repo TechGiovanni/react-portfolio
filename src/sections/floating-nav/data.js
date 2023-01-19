@@ -1,6 +1,6 @@
 import { AiFillHome } from 'react-icons/ai'
 import { BsPersonFill } from 'react-icons/bs'
-import { MdHomeRepairService } from 'react-icons/md'
+// import { MdHomeRepairService } from 'react-icons/md'
 import { AiFillAppstore } from 'react-icons/ai'
 import { AiFillMessage } from 'react-icons/ai'
 

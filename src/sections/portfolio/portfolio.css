@@ -50,6 +50,10 @@
 	margin: 0.5rem 0 2rem;
 }
 
+.recent__projects_p {
+	display: block;
+}
+
 .portfolio__project-cta {
 	display: flex;
 	gap: 1rem;

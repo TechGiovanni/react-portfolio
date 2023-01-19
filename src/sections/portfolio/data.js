@@ -1,13 +1,14 @@
 import Image1 from '../../assets/portfolio-project1.png'
 import Image2 from '../../assets/portfolio-project2.png'
-import Image3 from '../../assets/project3.jpg'
-import Image4 from '../../assets/project4.jpg'
+import Image3 from '../../assets/portfolio-project3.png'
+import Image4 from '../../assets/portfolio-project7.png'
 import Image5 from '../../assets/portfolio-project5.png'
 // import Image6 from '../../assets/project6.jpg'
 // import Image7 from '../../assets/project7.jpg'
 // import Image8 from '../../assets/project8.jpg'
 // import Image9 from '../../assets/project9.jpg'
 
+// images are 1280 × 720
 const data = [
 	{
 		id: 1,
@@ -28,15 +29,6 @@ const data = [
 		github: 'https://github.com/TechGiovanni/the_last_resort',
 	},
 	{
-		id: 3,
-		category: 'full-stack',
-		image: Image3,
-		title: 'Last Minute Date (Full Stack)',
-		desc: "Developed a full-stack match meetup application using Api's, Postman, Ruby on Rails, Heroku and Action Cable. Mobile first web application. deployed on Heroku.",
-		demo: 'https://www.thelastminutedate.art/',
-		github: 'https://github.com/TechGiovanni/the-last-minute-date',
-	},
-	{
 		id: 4,
 		category: 'frontend',
 		image: Image4,
@@ -44,6 +36,15 @@ const data = [
 		desc: 'Built the front-end using React, React Hooks API and Implemented features such as user authentication, shopping cart functionality and animations. deployed on Netlify',
 		demo: 'https://dancing-halva-1edf86.netlify.app/',
 		github: 'https://github.com/TechGiovanni/React-marketplace-client',
+	},
+	{
+		id: 3,
+		category: 'full-stack',
+		image: Image3,
+		title: 'Last Minute Date (Full Stack)',
+		desc: "Developed a full-stack match meetup application using Api's, Postman, Ruby on Rails, Heroku and Action Cable. Mobile first web application. deployed on Heroku.",
+		demo: 'https://www.thelastminutedate.art/',
+		github: 'https://github.com/TechGiovanni/the-last-minute-date',
 	},
 	{
 		id: 5,
