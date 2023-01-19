@@ -8,7 +8,7 @@ const data = [
 		id: 2,
 		icon: <TbBooks />,
 		title: 'Projects',
-		desc: '4 Complete',
+		desc: '4+ Complete',
 	},
 	// {
 	// 	id: 3,
