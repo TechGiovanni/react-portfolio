@@ -26,7 +26,7 @@ const About = () => {
 						))}
 					</div>
 					<p>
-						Highly motivated and passionate junior developer with experience in
+						Highly motivated and passionate web developer with experience in
 						full-stack web development. Building and learning the inner workings
 						of things that peeks my interest have always been my passion. Being
 						in the web development industry for up to 1 year now and I'm always
