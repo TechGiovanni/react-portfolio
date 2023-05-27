@@ -4,8 +4,7 @@ import Image3 from '../../assets/portfolio-project2.png'
 import Image5 from '../../assets/portfolio-project3.png'
 import Image4 from '../../assets/portfolio-project7.png'
 import Image6 from '../../assets/portfolio-project5.png'
-// import Image6 from '../../assets/project6.jpg'
-// import Image7 from '../../assets/project7.jpg'
+import Image7 from '../../assets/netflix.png'
 // import Image8 from '../../assets/project8.jpg'
 // import Image9 from '../../assets/project9.jpg'
 
@@ -60,20 +59,20 @@ const data = [
 		id: 6,
 		category: 'frontend',
 		image: Image6,
-		title: 'Slack Clone (Frontend)',
-		desc: 'Implemented a clone of the popular app slack using HTML, CSS, FlexBox and deployed using GitHub Pages',
+		title: 'Slack Clone - HTML & CSS (Frontend)',
+		desc: 'Built web clone of the popular app slack using HTML, CSS, FlexBox and deployed using GitHub Pages',
 		demo: 'https://techgiovanni.github.io/Slack-Clone/',
 		github: 'https://github.com/TechGiovanni/Slack-Clone',
 	},
-	// {
-	// 	id: 6,
-	// 	category: 'frontend',
-	// 	image: Image6,
-	// 	title: 'Project Title Six (Frontend)',
-	// 	desc: 'Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!',
-	// 	demo: 'http://egatortutorials.com',
-	// 	github: 'https://github.com/egattor',
-	// },
+	{
+		id: 7,
+		category: 'frontend',
+		image: Image7,
+		title: 'NetFlix Clone - React (Frontend)',
+		desc: 'Built a clone of netflix to use my css abilities for an abstract design. Was able to use layout principles with react and use conditional rendering.',
+		demo: 'https://netflix-clone-silk-beta.vercel.app/?',
+		github: 'https://github.com/TechGiovanni/netflix-clone',
+	},
 ]
 
 export default data
