@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import HeaderImage from '../../assets/header-Hero-img.jpeg'
+import HeaderImage from '../../assets/DSC02271-min-(1).jpeg'
 import data from './data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -16,15 +16,20 @@ const Header = () => {
 				<div className='header__profile' data-aos='fade-in'>
 					<img src={HeaderImage} alt='Header Portrait' />
 				</div>
-				<h3 data-aos='fade-up'>Full Stack Developer</h3>
+				<h3 data-aos='fade-up'> </h3>
 				<p data-aos='fade-up'>
-					I’m Giovanni. I’m a Montreal-based frontend engineer passing one year
-					of experience, currently focused on full-stack development and user
-					experience. In my previous careers, I have led teams and worked with a
-					lot of great people. Now I have evolved and grown my skills to being
-					more tech focused by graduating a fullstack web dev bootcamp, network
+					Hi there 👋, I'm Giovanni Reid. 
+				<br></br>
+				I’m a Montreal-based Web developer and IT Support/Analyst. 
+					<br></br>
+					In my previous career, I have worked in both large and small teams in various dealerships as an auto mechanic. 
+					<br></br>
+					Now I have grown my skills to being tech focused. 
+					I've graduated a fullstack web dev. boot-camp, networked
 					with various individuals in the tech industry, and worked in teams to
 					build and deliver great applications.
+					<br></br>
+					Currently I am Studying for the Comptia A+ Certification.
 				</p>
 				<div className='header__cta' data-aos='fade-up'>
 					<a href='#contact' className='btn primary'>

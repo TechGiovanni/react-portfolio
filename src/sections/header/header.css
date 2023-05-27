@@ -16,7 +16,7 @@ header {
 
 .header__profile {
 	width: 18rem;
-	height: 22rem;
+	height: 14.4rem;
 	border-radius: 9rem 9rem 2rem 2rem;
 	overflow: hidden;
 	margin-bottom: 1.5rem;
@@ -75,7 +75,7 @@ header {
 	}
 	.header__profile {
 		width: 14rem;
-		height: 17rem;
+		height: 11rem;
 		max-width: 60%;
 		max-height: 35vh;
 	}

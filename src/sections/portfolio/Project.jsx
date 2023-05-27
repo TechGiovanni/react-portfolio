@@ -17,14 +17,15 @@ const Project = ({ project }) => {
 				>
 					Demo
 				</a>
-				<a
+{project.github ? <a
 					href={project.github}
 					className='btn sm primary'
 					target='_blank'
 					rel='noopner noreferrer'
 				>
 					GitHub
-				</a>
+				</a> : null}
+				
 			</div>
 		</Card>
 	)

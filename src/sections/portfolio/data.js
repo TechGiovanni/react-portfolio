@@ -1,8 +1,9 @@
-import Image1 from '../../assets/portfolio-project1.png'
-import Image2 from '../../assets/portfolio-project2.png'
-import Image3 from '../../assets/portfolio-project3.png'
+import Image1 from '../../assets/gushyhut-thumbnail.png'
+import Image2 from '../../assets/Caribou.png'
+import Image3 from '../../assets/portfolio-project2.png'
+import Image5 from '../../assets/portfolio-project3.png'
 import Image4 from '../../assets/portfolio-project7.png'
-import Image5 from '../../assets/portfolio-project5.png'
+import Image6 from '../../assets/portfolio-project5.png'
 // import Image6 from '../../assets/project6.jpg'
 // import Image7 from '../../assets/project7.jpg'
 // import Image8 from '../../assets/project8.jpg'
@@ -14,17 +15,26 @@ const data = [
 		id: 1,
 		category: 'full-stack',
 		image: Image1,
-		title: 'Movie Watch list (Full Stack)',
-		desc: 'Developed a movie bookmark application using JS, SCSS, PostgreSQL, Cloudinary, Ruby on Rails and Heroku. deployed on Heroku.',
-		demo: 'https://immense-plateau-73398.herokuapp.com',
-		github: 'https://github.com/TechGiovanni/rails-watch-list-app',
+		title: 'Newsletter - Wordpress (FullStack CRM)',
+		desc: 'Developed a wordpress Newsletter website. This allowed for SEO optimizations google adsense and social media marketing. Used various plugins and integration such as: shopify, calendry, google kit and Custom CSS.',
+		demo: 'https://gushyhut.com/',
+		github: '',
 	},
 	{
 		id: 2,
 		category: 'full-stack',
 		image: Image2,
-		title: 'The Last Resort (Full Stack)',
-		desc: 'Developed a marketplace using Ruby on Rails, SCSS, Active Record, Cloudinary, SQL, Javascript and Heroku. deployed on Heroku.',
+		title: 'Social Network  - React (FullStack)',
+		desc: 'Developed a secret app for cariboux to tag areas humans are located, and be able to chat one-on-one using Nodejs, Express, Redux, Google Api, Leaflet Map Api, SocketIO, MongodB.',
+		demo: 'https://caribou-client-techgiovanni.vercel.app/',
+		github: 'https://github.com/TechGiovanni/gom-jabbar/tree/main/caribou-project',
+	},
+	{
+		id: 3,
+		category: 'full-stack',
+		image: Image3,
+		title: 'The Last Resort - Ruby on Rails (FullStack)',
+		desc: 'Developed a marketplace for witches using HTML5, SASS, Active Record, Cloudinary, SQL, Javascript and Heroku. deployed on Heroku.',
 		demo: 'https://the-last-resort-spell.herokuapp.com',
 		github: 'https://github.com/TechGiovanni/the_last_resort',
 	},
@@ -32,26 +42,26 @@ const data = [
 		id: 4,
 		category: 'frontend',
 		image: Image4,
-		title: 'E-commerce Clothing Shop (Frontend)',
-		desc: 'Built the front-end using React, React Hooks API and Implemented features such as user authentication, shopping cart functionality and animations. deployed on Netlify',
+		title: 'E-commerce Clothing Shop React - (Frontend)',
+		desc: 'Built the front-end using React Hooks and Implemented features such as user authentication, shopping cart functionality, animations and deployed on Netlify',
 		demo: 'https://dancing-halva-1edf86.netlify.app/',
 		github: 'https://github.com/TechGiovanni/React-marketplace-client',
 	},
 	{
-		id: 3,
+		id: 5,
 		category: 'full-stack',
-		image: Image3,
-		title: 'Last Minute Date (Full Stack)',
-		desc: "Developed a full-stack match meetup application using Api's, Postman, Ruby on Rails, Heroku and Action Cable. Mobile first web application. deployed on Heroku.",
+		image: Image5,
+		title: 'Last Minute Date - Ruby on rails (FullStack)',
+		desc: "Developed a full-stack match meetup application using Api's, Postman, Heroku and Action Cable. Mobile first web application. deployed on Heroku.",
 		demo: 'https://www.thelastminutedate.art/',
 		github: 'https://github.com/TechGiovanni/the-last-minute-date',
 	},
 	{
-		id: 5,
+		id: 6,
 		category: 'frontend',
-		image: Image5,
+		image: Image6,
 		title: 'Slack Clone (Frontend)',
-		desc: 'Implemented a clone of the popular app slack using HTML, CSS and FlexBox. deployed using GitHub Pages',
+		desc: 'Implemented a clone of the popular app slack using HTML, CSS, FlexBox and deployed using GitHub Pages',
 		demo: 'https://techgiovanni.github.io/Slack-Clone/',
 		github: 'https://github.com/TechGiovanni/Slack-Clone',
 	},

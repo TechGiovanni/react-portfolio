@@ -31,11 +31,12 @@ const Portfolio = () => {
 		<section id='portfolio'>
 			<h2>Recent Projects</h2>
 			<p>
-				Check out some of the projects I recently worked.
+				Check out some of the projects I recently worked on.
 				<span className='recent__projects_p'>
 					<strong>** Heroku Apps</strong> may render slower than usual as the
 					dyno's will be sleeping <strong>zzz **</strong>.
 				</span>
+				
 			</p>
 
 			<div className='container portfolio__container'>

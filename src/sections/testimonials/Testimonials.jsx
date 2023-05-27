@@ -16,10 +16,10 @@ import './testimonials.css'
 const Testimonials = () => {
 	return (
 		<section id='testimonials'>
-			<h2>What My ClassMates Say</h2>
+			<h2>What My TeamMates Say About Me</h2>
 			<p>
-				These are unbiased testimonials from some of my bootcamp classmates that
-				wrote on my linkedin as a <strong>recommendation.</strong>
+				These are unbiased testimonials from some of my bootcamp teammates that
+				wrote on my linkedIn as a <strong>recommendation.</strong> I never paid them for this. 
 			</p>
 			<div className='container'>
 				<Swiper
